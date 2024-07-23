@@ -1,0 +1,181 @@
+*{
+  box-sizing: border-box;
+}
+.bodydiv{
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.container{
+  width: 1200px;
+  border: 2px solid purple;
+  padding: 30px;
+}
+h1{
+  background-color: #673ab7;
+  color: aliceblue;
+  padding: 10px;
+  border-radius: 10px;
+}
+.form{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+
+
+
+.wrap-input-8 .input {
+  width: 100%;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+  background-color: 
+#f5f6fd;
+  border: 1px solid 
+#ccc; 
+  padding: 7px 14px 9px; 
+  transition: 0.4s;
+}
+
+.wrap-input-8 .input:focus {
+  outline: none;
+}
+
+.wrap-input-8 {
+  width: 80%;
+  margin: 40px 3%;
+  position: relative;
+}
+
+.wrap-input-8 .input ~ .focus-border:before,
+.wrap-input-8 .input ~ .focus-border:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: 
+#6c5dd3;
+  transition: 0.3s;
+}
+.wrap-input-8 .input ~ .focus-border:after {
+  top: auto;
+  bottom: 0;
+  left: auto;
+  right: 0;
+}
+.wrap-input-8 .input ~ .focus-border i:before,
+.wrap-input-8 .input ~ .focus-border i:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2px;
+  height: 0;
+  background-color: 
+#6c5dd3;
+  transition: 0.4s;
+}
+.wrap-input-8 .input ~ .focus-border i:after {
+  left: auto;
+  right: 0;
+  top: auto;
+  bottom: 0;
+}
+.wrap-input-8 .input:focus ~ .focus-border:before,
+.wrap-input-8 .input:focus ~ .focus-border:after {
+  width: 100%;
+  transition: 0.3s;
+}
+.wrap-input-8 .input:focus ~ .focus-border i:before,
+.wrap-input-8 .input:focus ~ .focus-border i:after {
+  height: 100%;
+  transition: 0.4s;
+}
+
+
+
+.button-roundpurple {
+  appearance: button;
+  background-color: 
+#4D4AE8;
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, .15), rgba(255, 255, 255, 0));
+  border: 1px solid 
+#4D4AE8;
+  border-radius: 1rem;
+  box-shadow: 
+rgba(255, 255, 255, 0.15) 0 1px 0 inset,
+rgba(46, 54, 80, 0.075) 0 1px 1px;
+  box-sizing: border-box;
+  color: 
+#FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  margin: 0;
+  padding: .5rem 1rem;
+  text-align: center;
+  text-transform: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.button-roundpurple:focus:not(:focus-visible),
+.button-roundpurple:focus {
+  outline: 0;
+}
+
+.button-roundpurple:hover {
+  background-color: 
+#3733E5;
+  border-color: 
+#3733E5;
+}
+
+.button-roundpurple:focus {
+  background-color: 
+#413FC5;
+  border-color: 
+#3E3BBA;
+  box-shadow: 
+rgba(255, 255, 255, 0.15) 0 1px 0 inset, 
+rgba(46, 54, 80, 0.075) 0 1px 1px, 
+rgba(104, 101, 235, 0.5) 0 0 0 .2rem;
+}
+
+.button-roundpurple:active {
+  background-color: 
+#3E3BBA;
+  background-image: none;
+  border-color: 
+#3A38AE;
+  box-shadow: 
+rgba(46, 54, 80, 0.125) 0 3px 5px inset;
+}
+
+.button-roundpurple:active:focus {
+  box-shadow: 
+rgba(46, 54, 80, 0.125) 0 3px 5px inset, 
+rgba(104, 101, 235, 0.5) 0 0 0 .2rem;
+}
+
+.button-roundpurple:disabled {
+  background-image: none;
+  box-shadow: none;
+  opacity: .65;
+  pointer-events: none;
+}
